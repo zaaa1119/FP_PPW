@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nguri-uri Satwa</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="icon" type="image/x-icon " href="logo.png" />
+
+</head>
+<body>
+
+<header>
+  <!-- Navbar DONE -->
+  <div class="nav-bg">
+    <!-- Navbar Dark dengan Dropdown -->
+    <nav class="bg-success text-white navbar navbar-expand-lg sticky-top shadow">
+      <div class="container"><!-- -fluid -->
+
+        <div>
+          <h1><i>Nguri-uri Satwa</i></h1>
+        </div>
+<!-- Toggler DONE -->
+        <button class="bg-white navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menu DONE -->
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto">
+
+            <!-- Home DONE -->
+            <li class="nav-item active">
+              <a class=" text-white nav-link" href="index.html">Home</a>
+            </li>
+
+            <!-- Explore Dropdown DONE -->
+            <li class="nav-item dropdown">
+              <a class="text-white nav-link dropdown-toggle" href="#" id="exploreDropdown" role="button"
+                data-bs-toggle="dropdown">
+                Kategori
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="Indonesia.html">Indonesia</a></li>
+                <li><a class="dropdown-item" href="Global.html">Global</a></li>
+                <li><a class="dropdown-item" href="Punah.html">Punah</a></li>
+              </ul>
+            </li>
+            
+            <!-- About Us Dropdown DONE -->
+            <li class="nav-item dropdown">
+              <a class="text-white nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button"
+                data-bs-toggle="dropdown">
+                About
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="tentang_kami.html">Tentang</a></li>
+                <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+<main>
+  <div class="bg-success text">
+    <h1><i>ꦱꦺꦭꦩꦠ꧀ꦢꦠꦁꦢꦶꦔꦸꦫꦶ-ꦈꦫꦶꦱꦠ꧀ꦮ</i></h1>
+    <br/>
+    <h4><i>(Selamat Datang Di Nguri-uri Satwa)</i></h4>
+  </div>
+</main>
+
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="1500">
+      <img src="Burung_Cendrawasih/Burung_Cendrawasih5.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Burung Cendrawasih</h5>
+        <p><i>Paradisaea apoda</i></p>
+        <p><a class="btn btn-lg btn-primary" href="Burung_Cendrawasih.html">Selengkapnya</a></p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="1500">
+      <img src="Elang_Jawa/Elang_Jawa4.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Elang Jawa</h5>
+        <p><i>Nisaetus bartelsi</i></p>
+        <p><a class="btn btn-lg btn-primary" href="Elang_Jawa.html">Selengkapnya</a></p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="1500">
+      <img src="Iriomote_Cat/Iriomote_Cat7.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Iriomote Cat</h5>
+        <p><i>Prionailurus iriomotensis</i></p>
+        <p><a class="btn btn-lg btn-primary" href="Iriomote_Cat.html">Selengkapnya</a></p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<div class="container my-4">
+    <h4><strong>Yuk, cek ada hewan apa saja!</strong></h4>
+    <div class="scroll-wrapper">
+      <button class="scroll-btn left" id="btnScrollLeft">&#8249;</button>
+
+      <div class="scroll-container" id="scrollContainer">
+        <div class="card-destinasi">
+          <a href="Harimau_Sumatera.html"><img src="Harimau_Sumatera/Harimau_Sumatera6.jpg" alt="Gambar Harimau Sumatera"></a>
+          <h6>Harimau Sumatera</h6>
+          <p><i>Sleman, Indonesia</i></p>      
+        </div>
+        <div class="card-destinasi">
+          <a href="Axolotl.html"><img src="Axolotl/Axolotl7.jpg" alt="Gambar Axolotl"></a>
+          <h6>Axolotl</h6>
+          <p><i>Sleman, Indonesia</i></p>      
+        </div>
+        <div class="card-destinasi">
+          <a href="Badak_Jawa.html"><img src="Badak_Jawa/Badak_Jawa3.jpg" alt="Gambar Badak Jawa"></a>
+          <h6>Badak Jawa</h6>
+          <p><i>Sleman, Indonesia</i></p>      
+        </div>
+        <div class="card-destinasi">
+          <a href="Burung_Shoebill.html"><img src="Burung_Shoebill/Burung_Shoebill2.jpg" alt="Gambar Burung Shoebil"></a>
+          <h6>Burung Shoebill</h6>
+          <p><i>Sleman, Indonesia</i></p>      
+        </div>
+        <div class="card-destinasi">
+          <a href="Gorila_Gunung.html"><img src="Gorila_Gunung/Gorila_Gunung2.jpg" alt="Gambar Gorila Gunung"></a>
+          <h6>Gorila Gunung</h6>
+          <p><i>Sleman, Indonesia</i></p>      
+        </div>
+        <div class="card-destinasi">
+          <a href="Iriomote_Cat.html"><img src="Iriomote_Cat/Iriomote_Cat3.jpg" alt="Gambar Iriomote Cat"></a>
+          <h6>Iriomote Cat</h6>
+          <p><i>Sleman, Indonesia</i></p>      
+        </div>
+        <div class="card-destinasi">
+          <a href="Jalak_Bali.html"><img src="Jalak_Bali/Jalak_Bali7.jpg" alt="Gambar Jalak Bali"></a>
+          <h6>Jalak Bali</h6>
+          <p><i></i></p>      
+        </div>
+        <div class="card-destinasi">
+          <a href="Komodo.html"><img src="Komodo/Komodo1.jpg" alt="Gambar  Komodo"></a>
+          <h6>Komodo</h6>
+          <p><i></i></p>      
+        </div>
+        <div class="card-destinasi">
+          <a href="Kucing_Merah_Kalimantan.html"><img src="Kucing_Merah_Kalimantan/Kucing_Merah_Kalimantan7.jpg" alt="Gambar Kucing Merah Kalimantan"></a>
+          <h6>Kucing Merah Kalimantan</h6>
+          <p><i></i></p>      
+        </div>
+        <div class="card-destinasi">
+          <a href="Leopard_Salju.html"><img src="Leopard_Salju/Leopard_Salju5.jpg" alt="Gambar Leopard Salju"></a>
+          <h6>Leopard Salju</h6>
+          <p><i></i></p>      
+        </div>
+        <div class="card-destinasi">
+          <a href="Mammoth_Berbulu.html"><img src="Mammoth_Berbulu/Mammoth_Berbulu7.jpg" alt="Gambar Mammoth Berbulu"></a>
+          <h6>Mammoth Berbulu</h6>
+          <p><i></i></p>      
+        </div>
+        <div class="card-destinasi">
+          <a href="Orangutan_Kalimantan.html"><img src="Orangutan_Kalimantan/Orangutan_Kalimantan7.jpg" alt="Gambar Oranguta Kalimantan"></a>
+          <h6>Orangutan Kalimantan</h6>
+          <p><i></i></p>      
+        </div>
+        <div class="card-destinasi">
+          <a href="Panda_Raksasa.html"><img src="Panda_Raksaksa/Panda_Raksaksa8.jpg" alt="Gambar Panda Raksasa"></a>
+          <h6>Panda Raksasa</h6>
+          <p><i></i></p>      
+        </div>
+        <div class="card-destinasi">
+          <a href="Rangkong_Gading.html"><img src="Rangkong_Gading/Rangkong_Gading10.jpg" alt="Gambar Rangkong Gading"></a>
+          <h6>Rangkong Gading</h6>
+          <p><i></i></p>      
+        </div>
+        <div class="card-destinasi">
+          <a href="Trenggiling_pongloin.html"><img src="Trenggiling_pongloin/Trenggiling_pongloin6.jpg" alt="Gambar Trenggiling Pongloin"></a>
+          <h6>Trenggiling Pongloin</h6>
+          <p><i></i></p>      
+        </div>
+        <div class="card-destinasi">
+          <a href="Quagga.html"><img src="Quagga/Quagga2.jpg" alt="Gambar Quagga"></a>
+          <h6>Quagga</h6>
+          <p><i></i></p>      
+        </div>
+        <div class="card-destinasi">
+          <a href="Bekantan.html"><img src="Bekantan/Bekantan1.jpg" alt="Gambar Bekantan"></a>
+          <h6>Bekantan</h6>
+          <p><i></i></p>      
+        </div>
+        <div class="card-destinasi">
+          <a href="Bonobo.html"><img src="Bonobo/Bonobo10.jpg" alt="Gambar Bonobo"></a>
+          <h6>Bonobo</h6>
+          <p><i></i></p>      
+        </div>
+      </div>
+
+        <button class="scroll-btn right" id="btnScrollRight">&#8250;</button>
+    </div>
+  </div>
+
+<!-- Footer DONE -->
+  <footer class="bg-success text-white pt-5 pb-4">
+    <div class="container text-md-left">
+      <div class="row">
+
+        <!-- About Us DONE -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">About Us</h6>
+          <p><a href="index.html" class="text-white text-decoration-none">Home</a></p>
+          <p><a href="tentang_kami.html" class="text-white text-decoration-none">Tentang</a></p>
+        </div>
+
+        <!-- Features DONE -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">kategori</h6>
+          <p><a href="Indonesia.html" class="text-white text-decoration-none">Indonesia</a></p>
+          <p><a href="Global.html" class="text-white text-decoration-none">Global</a></p>
+          <p><a href="Punah.html" class="text-white text-decoration-none">Punah</a></p>
+        </div>
+
+        <!-- Useful Links DONE -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">contact team</h6>
+          <p><a href="contact.html" class="text-white text-decoration-none">Contact</a></p>
+        </div>
+
+        <!-- Logo & Deskripsi DONE -->
+        <div class="col-md-5 col-lg-6 col-xl-5 mx-auto mb-4">
+          <img src="logo.png" alt="Logo" style="height: 125px;" class="mb-2">
+        </div>
+      </div>
+
+      <hr class="my-4">
+
+      <!-- Bagian Bawah DONE -->
+      <div class="d-flex justify-content-between flex-wrap align-items-center">
+        <div class="text-center w-100">
+          <p>&copy; 2025 <b>Stevanus</b> All Rights Reserved</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+<!-- Bootstrap JS (Wajib untuk offcanvas & dropdown) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

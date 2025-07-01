@@ -1,0 +1,101 @@
+/* Global reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.navbar .nav-link.active,
+.navbar .nav-item.active .nav-link {
+  color: rgb(145, 255, 0) !important;
+}
+.dropdown-menu .dropdown-item.active {
+  background-color: #ffffffee; /* Lebih gelap dari hijau */
+  color: rgb(145, 255, 0) !important;
+}
+.dropdown-menu .dropdown-item:active {
+  background-color: #16bc5bee !important; /* hijau kamu */
+  color: rgb(145, 255, 0) !important;     /* hijau muda */
+}
+.dropdown-menu .dropdown-item:hover {
+  background-color: #198754 !important; /* hijau Bootstrap */
+  color: white !important;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #f2f4f8;
+  flex-direction: column; /* Tambahkan ini */
+  align-items: center; 
+}
+
+/* Container pembungkus semua card */
+.contact-wrapper {
+  display: flex;
+  flex-direction: column; /* --> Biar vertikal */
+  align-items: center;
+  gap: 24px; /* Jarak antar card */
+  width: 100%;
+  max-width: 1300px;
+  margin-top: 30px;
+}
+
+/* Card individu */
+.contact-container {
+  background-color: #0ac40764;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(1, 219, 125, 0.821);
+  padding: 32px 40px;
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+/* Judul */
+.contact-container h2 {
+  font-size: 1.8rem;
+  text-align: center;
+  color: #0a2540;
+  margin-bottom: 8px;
+}
+
+.contact-container p {
+  text-align: center;
+  color: #555;
+  margin-bottom: 24px;
+}
+
+/* Info data */
+.info-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.info-item .material-icons {
+  color: #000000;
+}
+
+.info-label {
+  font-weight: bold;
+  color: #09081d;
+  width: 80px;
+}
+
+.info-value {
+  flex: 1;
+  color: #333;
+  word-break: break-word;
+}
+
+/* Tambahan jika pakai Google Fonts untuk ikon */
+@import url('https://fonts.googleapis.com/css2?family=Material+Icons');
+.material-icons {
+  font-family: 'Material Icons';
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+footer{
+  margin-top: 40px;
+}
