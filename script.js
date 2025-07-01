@@ -112,7 +112,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function getRandomImage(fileHtml) {
     const baseName = fileHtml.replace(".html", "");
     const nomor = Math.floor(Math.random() * 10) + 1;
-    return `../${baseName}/${baseName}${nomor}.jpg`;
+    return `${baseName}/${baseName}${nomor}.jpg`;
   }
 
   function tampilkanHewanLain() {
