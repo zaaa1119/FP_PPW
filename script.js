@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const folderName = currentFile.replace(".html", "");
   
 
-  if (folderName.toLowerCase() !== "index") {
+  if (folderName.toLowerCase() !== "index" && folderName !== "") {
   tampilkanGaleriGambar(folderName, 10);
   }
 
