@@ -41,9 +41,12 @@ document.addEventListener("DOMContentLoaded", function () {
   const folderName = currentFile.replace(".html", "");
   
 
-  if (folderName.toLowerCase() !== "index" && folderName !== "") {
-  tampilkanGaleriGambar(folderName, 10);
+  const isIndex = folderName === "" || folderName.toLowerCase() === "index";
+
+  if (!isIndex) {
+    tampilkanGaleriGambar(folderName, 10);
   }
+
 
 
   const daftarHewan = [
