@@ -11,59 +11,60 @@
 <body>
 
 <header>
-  <!-- Navbar DONE -->
-  <div class="nav-bg">
-    <!-- Navbar Dark dengan Dropdown -->
-    <nav class="bg-success text-white navbar navbar-expand-lg sticky-top shadow">
-      <div class="container"><!-- -fluid -->
+    <!-- Navbar DONE -->
+    <div class="nav-bg">
+      <!-- Navbar Dark dengan Dropdown -->
+      <nav class="bg-success text-white navbar navbar-expand-lg sticky-top shadow">
+        <div class="container"><!-- -fluid -->
 
-        <div>
-          <h1><i>Nguri-uri Satwa</i></h1>
+          <div>
+            <h1><i>Nguri-uri Satwa</i></h1>
+          </div>
+          <!-- Toggler DONE -->
+          <button class="bg-white navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Menu DONE -->
+          <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-auto">
+
+              <!-- Home DONE -->
+              <li class="nav-item">
+                <a class=" text-white nav-link" href="index.html">Home</a>
+              </li>
+
+              <!-- Explore Dropdown DONE -->
+              <li class="nav-item dropdown">
+                <a class="text-white nav-link dropdown-toggle" href="#" id="exploreDropdown" role="button"
+                  data-bs-toggle="dropdown">
+                  Kategori
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Indonesia.html">Indonesia</a></li>
+                  <li><a class="dropdown-item" href="Global.html">Global</a></li>
+                  <li><a class="dropdown-item" href="Punah.html">Punah</a></li>
+                </ul>
+              </li>
+
+              <!-- About Us Dropdown DONE -->
+              <li class="nav-item dropdown">
+                <a class="text-white nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button"
+                  data-bs-toggle="dropdown">
+                  About
+                </a>
+                <ul class="dropdown-menu ">
+                  <li><a class="dropdown-item" href="tentang_kami.html">Tentang</a></li>
+                  <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                  <li><a class="dropdown-item" href="form.html">Form Saran</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </div>
-<!-- Toggler DONE -->
-        <button class="bg-white navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <!-- Menu DONE -->
-        <div class="collapse navbar-collapse" id="mainNav">
-          <ul class="navbar-nav ms-auto">
-
-            <!-- Home DONE -->
-            <li class="nav-item">
-              <a class=" text-white nav-link" href="index.html">Home</a>
-            </li>
-
-            <!-- Explore Dropdown DONE -->
-            <li class="nav-item dropdown">
-              <a class="text-white nav-link dropdown-toggle" href="#" id="exploreDropdown" role="button"
-                data-bs-toggle="dropdown">
-                Kategori
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="Indonesia.html">Indonesia</a></li>
-                <li><a class="dropdown-item" href="Global.html">Global</a></li>
-                <li><a class="dropdown-item" href="Punah.html">Punah</a></li>
-              </ul>
-            </li>
-            
-            <!-- About Us Dropdown DONE -->
-            <li class="nav-item dropdown">
-              <a class="text-white nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button"
-                data-bs-toggle="dropdown">
-                About
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="tentang_kami.html">Tentang</a></li>
-                <li><a class="dropdown-item" href="contact.html">Contact</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </div>
-</header>
+      </nav>
+    </div>
+  </header>
 
 <div>
   <table>
@@ -146,7 +147,7 @@
 <div id="hewan-lain"></div>
 
 <!-- Footer DONE -->
-  <footer class="bg-success text-white pt-5 pb-4">
+<footer class="bg-success text-white pt-5 pb-4">
     <div class="container text-md-left">
       <div class="row">
 
@@ -169,6 +170,7 @@
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
           <h6 class="text-uppercase fw-bold mb-4">contact team</h6>
           <p><a href="contact.html" class="text-white text-decoration-none">Contact</a></p>
+          <p><a href="form.html" class="text-white text-decoration-none">Form Saran</a></p>
         </div>
 
         <!-- Logo & Deskripsi DONE -->
